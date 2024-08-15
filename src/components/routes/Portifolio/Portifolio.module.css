@@ -1,8 +1,8 @@
 .container {
-  padding: 40px 0 0;
+  padding: 40px 20px 0;
   margin: 0 auto 30px;
   height: 500px;
-  width: 90vw;
+  width: 740px;
   border: 1px solid var(--third-color);
   background-color: var(--dark-red);
   border-radius: 40px 40px 10px 10px;
@@ -21,4 +21,10 @@
   text-transform: uppercase;
   color: var(--third-color);
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 375px;
+  }
 }

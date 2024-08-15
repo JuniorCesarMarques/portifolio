@@ -23,6 +23,12 @@
     font-size: 30px;
 }
 
+@media screen and (max-width: 1025px) {
+    .logo_container {
+        margin: 20px;
+    }
+}
+
 @keyframes toggleAnimation {
     from {
         height: 90px;
