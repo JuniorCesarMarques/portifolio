@@ -1,0 +1,24 @@
+.container {
+  padding: 40px 0 0;
+  margin: 0 auto 30px;
+  height: 500px;
+  width: 90vw;
+  border: 1px solid var(--third-color);
+  background-color: var(--dark-red);
+  border-radius: 40px 40px 10px 10px;
+  box-shadow: rgba(255, 31, 42, 0.5) 0px 0px 20px 0px inset;
+  font-family: "Inter", sans-serif;
+}
+
+.container h2 {
+  text-align: center;
+  color: var(--white-color);
+  font-size: 25px;
+}
+
+.container p {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(--third-color);
+  text-align: center;
+}

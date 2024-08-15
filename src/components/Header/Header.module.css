@@ -1,0 +1,36 @@
+.container {
+    background-color: var(--main-color);
+    color: var(--white-color);
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: var(--font-size);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+
+.logo_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    margin: 20px 100px;
+}
+
+.container svg {
+    font-size: 30px;
+}
+
+@keyframes toggleAnimation {
+    from {
+        height: 90px;
+    }
+
+    to {
+        height: 300px;
+    }
+}
+
+
